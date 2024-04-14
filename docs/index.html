@@ -8,7 +8,6 @@
   </head>
   <body>
     <div id="app"></div>
-    <div id="app">加载中，请稍后...</div>
     
     <style>  
       .search {  
@@ -18,12 +17,13 @@
 
     <script>  
       window.$docsify = { 
+        repo: '',
         // 搜索栏 
         search: {  
           maxAge: 86400000, // Expiration time, the default one day
-          paths: 'auto', // or 'auto'
+          paths: 'auto', 
           placeholder: "🔍搜索文本",
-          noData: "1231321",
+          noData: "无匹配文本",
         },  
         // 侧边栏
         loadSidebar: true,  
@@ -31,8 +31,9 @@
       };  
     </script>
 
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   </body>
 </html>
