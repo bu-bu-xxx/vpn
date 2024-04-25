@@ -16,7 +16,7 @@
 
 # VPS信息
 
-购买网站：<www.bytevirt.com>
+购买网站：<https://www.bytevirt.com>
 
 用户账号：`779117133@qq.com`
 
