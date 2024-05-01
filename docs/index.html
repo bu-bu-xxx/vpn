@@ -27,7 +27,11 @@
         },  
         // 侧边栏
         loadSidebar: true,  
-        // 其他 Docsify 配置项...  
+        // toc
+        'page-toc': {
+          tocMaxLevel: 4,
+          target: 'h1, h2, h3, h4',
+        },
       };  
     </script>
 
@@ -35,9 +39,15 @@
     <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+    <!-- highlight code -->
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+    <!-- toc -->
+    <script src="//unpkg.com/docsify-page-toc/dist/docsify-page-toc.js"></script>
+    <!-- pdf embed -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script> 
+    <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
 
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
