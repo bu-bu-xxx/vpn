@@ -85,3 +85,9 @@ vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJKYXBhbiIsCiAgImFkZCI6ICJbMmExMjpiZWMwOjE2
 密码：`jjjj123456`
 
 订阅链接：`https://kaochang.cheap/api/v1/client/subscribe?token=37843a218f37806df93a380f86109c0a`
+
+代理配置(可能，需要尝试)：
+
+<img src="./assets/proxy1.png" alt="图1" style="zoom:50%;" />
+
+<img src="./assets/proxy2.png" alt="图2" style="zoom:50%;" />
