@@ -44,15 +44,23 @@ SSH命令行 : `ssh -p 15951 root@nathk1.bytevirt.net`
 
 访问xui：<http://[2a12:bec0:168:488::]:15952/>
 
+面板端口：`15970`
+
 * JP VPS
 
-root密码：`X_mTrYt*#kjJFaPs=-WS`
+root密码：`=Q%#7VdHG*A8vs+x)51N`
 
 主机名：`44ab887884.bytevirt.com`
 
 公网IPv6：`2a12:bec0:166:56b::`
 
 公网IPv4：`103.76.131.206`
+
+面板账号密码：`admin`
+
+面板端口：`33920`
+
+访问xui：<http://103.76.131.206:33920>
 
 * JP nat
 
@@ -70,13 +78,13 @@ root密码：`^}~cg$#VkRn@=ue1Q)(v`
 
 SSH端口 : `33901`
 
-SSH命令行 : ` ssh -p33901 root@natjp3.bytevirt.net`
+SSH命令行 : `ssh -p 33901 root@natjp3.bytevirt.net`
 
-访问xui：<http://[2a12:bec0:165:1b4::]:33901>
+访问xui：<http://[2a12:bec0:165:1b4::]:33920>
 
 面板账号密码：`admin`
 
-面板端口：`33901`
+面板端口：`33920`
 
 # 安装X-UI
 
@@ -86,13 +94,11 @@ SSH命令行 : ` ssh -p33901 root@natjp3.bytevirt.net`
 bash <(curl -Ls https://raw.githubusercontent.com/franzkafkayu/x-ui/956bf85bbac978d56c0e319c5fac2d6db7df9564/install.sh) 0.3.4.4
 ```
 
-面板账号：`zqy`
+面板账号：
 
-面板密码：`zqydevps`
+面板密码：
 
-面板端口：`15951`
-
-端口：`80`
+面板端口：
 
 # 域名
 购买地址 <https://www.namesilo.com/>
