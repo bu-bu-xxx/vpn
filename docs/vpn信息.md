@@ -42,7 +42,7 @@ SSH命令行 : `ssh -p 15951 root@nathk1.bytevirt.net`
 
 面板账号密码：`admin`
 
-访问xui：<http://[2a12:bec0:168:488::]:15952/>
+访问xui：<http://[2a12:bec0:168:488::]:15970>
 
 面板端口：`15970`
 
